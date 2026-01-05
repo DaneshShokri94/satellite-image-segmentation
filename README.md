@@ -1,4 +1,4 @@
-# 🛰️ Satellite Image Segmentation
+# Satellite Image Segmentation
 
 A comprehensive deep learning pipeline for semantic segmentation of satellite and aerial imagery using PyTorch.
 
