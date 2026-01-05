@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data (large image files only, keep folder structure)
+data/train/*
+!data/train/.gitkeep
+data/train_masks/*
+!data/train_masks/.gitkeep
+data/val/*
+!data/val/.gitkeep
+data/val_masks/*
+!data/val_masks/.gitkeep
+data/test/*
+!data/test/.gitkeep
+data/test_masks/*
+!data/test_masks/.gitkeep
+
+# Model outputs (keep folder, ignore contents except docs)
+outputs/*
+!outputs/.gitkeep
+!outputs/README.md
+
+# Checkpoints and predictions
+checkpoints/
+predictions/
+*.pth
+*.pt
+*.onnx
+
+# Weights (keep folder, ignore model files)
+weights/*
+!weights/.gitkeep
+!weights/README.md
+
+# Logs
+logs/
+*.log
+wandb/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large image files
+*.tif
+*.tiff
+*.zip
+*.tar.gz

@@ -1,0 +1,17 @@
+name: satellite-seg
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - torchvision>=0.15
+  - pytorch-cuda=11.8
+  - pip
+  - pip:
+    - segmentation-models-pytorch>=0.3.3
+    - pillow>=9.0.0
+    - numpy>=1.21.0
+    - tqdm>=4.64.0

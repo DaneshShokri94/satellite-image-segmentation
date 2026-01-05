@@ -1,0 +1,37 @@
+{
+    "name": "land_cover_classification",
+    "description": "Multi-class land cover classification",
+    
+    "model": {
+        "arch": "deeplabv3plus",
+        "encoder": "efficientnet-b4",
+        "pretrained": "imagenet",
+        "in_channels": 3,
+        "num_classes": 5
+    },
+    
+    "training": {
+        "epochs": 150,
+        "batch_size": 8,
+        "lr": 0.0001,
+        "weight_decay": 0.0001
+    },
+    
+    "optimizer": "adamw",
+    "scheduler": "cosine",
+    "loss": "ce",
+    
+    "data": {
+        "patch_size": 512,
+        "stride": 256,
+        "filter_empty": true
+    },
+    
+    "classes": {
+        "0": "background",
+        "1": "water",
+        "2": "vegetation",
+        "3": "urban",
+        "4": "agriculture"
+    }
+}
