@@ -26,7 +26,7 @@ A comprehensive deep learning pipeline for semantic segmentation of satellite an
 - **Mixed Precision Training**: Faster training, less memory
 - **Multiple Loss Functions**: Dice, Focal, Tversky, Lovasz, etc.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
