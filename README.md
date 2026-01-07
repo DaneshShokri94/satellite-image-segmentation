@@ -6,7 +6,7 @@ A comprehensive deep learning pipeline for semantic segmentation of satellite an
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 🎯 Applications
+## Applications
 
 - **Land Cover Classification** - Forest, water, urban, agriculture
 - **Water Body Detection** - Rivers, lakes, floods, ice
@@ -16,7 +16,7 @@ A comprehensive deep learning pipeline for semantic segmentation of satellite an
 - **Disaster Response** - Flood mapping, damage assessment
 - **Ice/Snow Mapping** - Sea ice, glaciers, snow cover
 
-## ✨ Features
+## Features
 
 - **9 Segmentation Architectures**: U-Net, U-Net++, DeepLabV3+, FPN, PSPNet, and more
 - **40+ Encoder Backbones**: ResNet, EfficientNet, VGG, MobileNet, etc.
