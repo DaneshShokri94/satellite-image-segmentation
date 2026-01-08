@@ -115,7 +115,7 @@ python inference.py --weights outputs/best_model/checkpoints/best_model.pth --in
 
 ---
 
-## 📁 Data Preparation
+## Data Preparation
 
 ### Directory Structure
 
