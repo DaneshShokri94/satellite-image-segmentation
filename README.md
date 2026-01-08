@@ -231,7 +231,7 @@ python train.py \
 
 ---
 
-## 🏛️ Architectures & Encoders
+## Architectures & Encoders
 
 ### Segmentation Architectures
 
