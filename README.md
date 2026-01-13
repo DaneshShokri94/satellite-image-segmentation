@@ -83,7 +83,7 @@ python check_installation.py
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Prepare Your Data
 
