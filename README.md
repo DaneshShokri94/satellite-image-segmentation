@@ -158,7 +158,7 @@ data/
 
 ---
 
-## 📖 Usage Examples
+## Usage Examples
 
 ### Example 1: Water Body Detection (Binary)
 
