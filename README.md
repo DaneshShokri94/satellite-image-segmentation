@@ -38,7 +38,7 @@ A comprehensive deep learning pipeline for semantic segmentation of satellite an
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### Step 1: Create Conda Environment
 
