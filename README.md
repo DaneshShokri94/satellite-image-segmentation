@@ -264,7 +264,7 @@ python train.py \
 ### Loss Functions
 
 ```bash
-# Dice Loss (default) - Good for imbalanced data
+# Dice Loss Functoin (default) - Good for imbalanced data
 python train.py --loss dice
 
 # Cross Entropy - Multi-class segmentation
